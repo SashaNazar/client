@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f3c5427012cf81c5e1f4a05092635251",
-    "content-hash": "c126dcdbae1b83082194347979e2f1e7",
+    "hash": "5dfea586dceb1cd40a8a4c0edc6e0fc7",
+    "content-hash": "9b2443725ea1549289e2ccd44e2c3a8f",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -468,6 +468,53 @@
                 "yii2"
             ],
             "time": "2016-12-20 13:33:37"
+        },
+        {
+            "name": "yiisoft/yii2-httpclient",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-httpclient.git",
+                "reference": "a0b5ff6e61fbb73cef7f7f7f59ace1c144db550a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-httpclient/zipball/a0b5ff6e61fbb73cef7f7f7f59ace1c144db550a",
+                "reference": "a0b5ff6e61fbb73cef7f7f7f59ace1c144db550a",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\httpclient\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "HTTP client extension for the Yii framework",
+            "keywords": [
+                "curl",
+                "http",
+                "httpclient",
+                "yii2"
+            ],
+            "time": "2017-07-25 11:24:15"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
